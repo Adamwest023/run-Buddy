@@ -233,6 +233,46 @@ section {
 
 /* Reach Out Section Starts */
 
+.contact {
+    background: #024e76;
+    text-align: center;
+}
+.contact h2 {
+    color: #fce138;
+    display: inline-block;
+}
+
+.contact-info {
+    width: 410px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin: 30px auto auto 60px;
+    color: white;
+}
+
+.contact-info iframe {
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+}
+
+.contact-info h3 {
+    color: #fce138;
+    font-size: 32px;
+}
+
+.contact-info p,
+.contact-info address {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.contact-info a {
+    color:#fce138;
+}
 
 /* Reach Out Section Ends */
 
