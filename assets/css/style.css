@@ -350,17 +350,59 @@ section {
 /* Flexbox ends */
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+    }
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    header ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header ul li a {
+        font-size: 20px;
+    }
+
+    footer h2, footer div {
+        text-align: center;
+        width: 100%;
+    }
+
+    .hero-cta, .hero-form {
+        width: 100%;
+    }
+
+    .hero-cta {
+        text-align: center;
+    }
 }
 
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+    }
+
   
 }
 
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+    }
+
   
 }
